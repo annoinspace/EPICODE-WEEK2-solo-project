@@ -104,14 +104,31 @@ Write a function called dice; it should randomize an integer number between 1 an
 */
 console.log(`\n------------- EXERCISE 1 -------------`)
 
-let dice = Math.ceil(Math.random() * 6)
-console.log(dice)
+function dice() {
+  let randomNum = Math.ceil(Math.random() * 6)
+  console.log(randomNum)
+}
+
+dice()
 
 /* EXERCISE 2
 
 Write a function called whoIsBigger which receives 2 numbers as parameters and returns the biggest one.
 
 */
+
+console.log(`\n------------- EXERCISE 2 -------------`)
+
+// let number1 = 5
+// let number2 = 4
+
+function whoIsBigger(number1, number2) {
+  if (number1 > number2) {
+    console.log(number1)
+  } else console.log(number2)
+}
+
+whoIsBigger(10, 4)
 
 /* EXERCISE 3
 
