@@ -138,6 +138,15 @@ Ex.: splitMe("I love coding") => returns ["I", "Love", "Coding"]
 
 */
 
+console.log(`\n------------- EXERCISE 3 -------------`)
+
+function splitMe(string) {
+  console.log(string.split(" "))
+}
+
+let string = "I love Coding"
+splitMe(string)
+
 /* EXERCISE 4
 
 Write a function called deleteOne which receives a string and a boolean as parameters.
