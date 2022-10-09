@@ -47,11 +47,20 @@ console.log(`\n------------- EXERCISE C -------------`)
 
 let random = Math.floor(Math.random() * 20)
 console.log(random)
+
 /* EXERCISE D
 
 Create a variable called me and assign to it an object containing the following information: name = your name, surname = your surname, age = your age.
 
 */
+
+console.log(`\n------------- EXERCISE D -------------`)
+
+let me = {
+  name: "Aneesah",
+  surname: "Khan",
+  age: "23"
+}
 
 /* EXERCISE E
 
