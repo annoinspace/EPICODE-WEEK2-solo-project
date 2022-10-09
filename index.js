@@ -94,6 +94,7 @@ console.log(`\n------------- EXERCISE G -------------`)
 
 me.skills.pop(2)
 console.log(me)
+
 // JS Functions
 
 /* EXERCISE 1
@@ -101,6 +102,10 @@ console.log(me)
 Write a function called dice; it should randomize an integer number between 1 and 6.
 
 */
+console.log(`\n------------- EXERCISE 1 -------------`)
+
+let dice = Math.ceil(Math.random() * 6)
+console.log(dice)
 
 /* EXERCISE 2
 
