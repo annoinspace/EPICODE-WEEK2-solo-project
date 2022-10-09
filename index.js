@@ -140,12 +140,12 @@ Ex.: splitMe("I love coding") => returns ["I", "Love", "Coding"]
 
 console.log(`\n------------- EXERCISE 3 -------------`)
 
-function splitMe(string) {
-  console.log(string.split(" "))
+function splitMe(stringToSplit) {
+  console.log(stringToSplit.split(" "))
 }
 
-let string = "I love Coding"
-splitMe(string)
+let stringToSplit = "I love Coding"
+splitMe(stringToSplit)
 
 /* EXERCISE 4
 
@@ -154,6 +154,23 @@ Write a function called deleteOne which receives a string and a boolean as param
 If the boolean value is true it should return the string without the first letter, otherwise it should remove the last one from it.
 
 */
+
+console.log(`\n------------- EXERCISE 4 -------------`)
+
+let boolean = false
+let string = "chocolate"
+
+function deleteOne(boolean, string) {
+  if (boolean === true) {
+    minusFirstLetter = string.slice(1)
+    console.log(minusFirstLetter)
+  } else {
+    minusLastLetter = string.slice(0, -1)
+    console.log(minusLastLetter)
+  }
+}
+
+deleteOne(boolean, string)
 
 /* EXERCISE 5
 
