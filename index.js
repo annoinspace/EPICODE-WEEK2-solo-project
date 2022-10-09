@@ -177,14 +177,27 @@ deleteOne(boolean, string)
 Write a function called onlyLetters which receives a string as a parameter and returns it removing all the digits.
 
 Ex.: onlyLetters("I have 4 dogs") => returns "I have dogs"
-
 */
 
-/* EXERCISE 6
+console.log(`\n------------- EXERCISE 5 -------------`)
+
+function onlyLetters(stringWithNumbers) {
+  let stringWithoutNumbers = stringWithNumbers.replace(/[0-9]/g, "")
+  console.log(stringWithoutNumbers)
+}
+
+let stringWithNumbers = "I am 23 years old"
+onlyLetters(stringWithNumbers)
+
+/* EXERCISE 6 replace(/[0-9]/g, '')
 
 Write a function called isThisAnEmail which receives a string as a parameter and returns true if the string is a valid email address.
 
 */
+
+console.log(`\n------------- EXERCISE 6 -------------`)
+
+function isThisAnEmail() {}
 
 /* EXERCISE 7
 
