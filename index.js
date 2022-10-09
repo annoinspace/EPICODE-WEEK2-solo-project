@@ -24,7 +24,7 @@ Create a variable called test and assign a string value to it.
 
 */
 
-console.log(`\n-------------EXERCISE A-------------`)
+console.log(`\n------------- EXERCISE A -------------`)
 
 let test = ``
 console.log(typeof test)
@@ -34,6 +34,9 @@ console.log(typeof test)
 Create a variable called sum and assign to it the result of the sum between the numbers 10 and 20.
 
 */
+console.log(`\n------------- EXERCISE B -------------`)
+let sum = 10 + 20
+console.log(sum)
 
 /* EXERCISE C
 
