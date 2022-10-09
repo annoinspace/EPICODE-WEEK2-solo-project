@@ -81,12 +81,19 @@ Write a piece of code for programmatically adding to the me object you defined b
 
 */
 
+console.log(`\n------------- EXERCISE F -------------`)
+me.skills = ["HTML", "CSS", "JavaScript"]
+console.log(me)
+
 /* EXERCISE G
 
 Write a piece of code for programmatically removing the last skill from the skills array inside the me object.
 
 */
+console.log(`\n------------- EXERCISE G -------------`)
 
+me.skills.pop(2)
+console.log(me)
 // JS Functions
 
 /* EXERCISE 1
