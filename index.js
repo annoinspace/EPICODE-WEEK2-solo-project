@@ -62,11 +62,18 @@ let me = {
   age: "23"
 }
 
+console.log(me)
+
 /* EXERCISE E
 
 Write a piece of code for programmatically removing the age property from the previously create object.
 
 */
+
+console.log(`\n------------- EXERCISE E -------------`)
+
+delete me.age
+console.log(me.age)
 
 /* EXERCISE F
 
